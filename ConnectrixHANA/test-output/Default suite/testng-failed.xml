@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcasesHANA.OneClickCheckInHANA">
+        <methods>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="CreateAccCheckIn"/>
+        </methods>
+      </class> <!-- testcasesHANA.OneClickCheckInHANA -->
+      <class name="testcasesHANA.OrderJourneyTabHANA">
+        <methods>
+          <include name="setUp"/>
+          <include name="AddNewPOUploadPurchaseOrder"/>
+          <include name="AddNewPOSelectFromItems"/>
+          <include name="TearDown"/>
+          <include name="AddNewPoGenerateProformaInvoice"/>
+        </methods>
+      </class> <!-- testcasesHANA.OrderJourneyTabHANA -->
+      <class name="testcasesHANA.AccountTabTestHANA">
+        <methods>
+          <include name="Create_WON_Opp"/>
+          <include name="verifyAccountDetails"/>
+          <include name="Create_Account"/>
+          <include name="Create_Order"/>
+          <include name="verifyLOSTOpportunityDetails"/>
+          <include name="Create_OPEN_Opp"/>
+          <include name="verifyOPENOpportunityDetails"/>
+          <include name="verifyWONOpportunityDetails"/>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="Create_LOST_Opp"/>
+        </methods>
+      </class> <!-- testcasesHANA.AccountTabTestHANA -->
+      <class name="testcasesHANA.DashBoardTabTestHANA">
+        <methods>
+          <include name="verifyAccountsinProfileSection"/>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcasesHANA.DashBoardTabTestHANA -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

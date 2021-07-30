@@ -1,0 +1,63 @@
+[RemoteTestNG] detected TestNG version 7.3.0
+Launching Application with Apk version: D:\APK\Sales_dev_30_nov.apk
+Using Test Data Excel Sheet: ConnectrixData.xlsx
+Dec 01, 2020 10:33:45 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+User mobile number to Login: 9716322119
+Switching to HANA Branch...
+Switching from available accounts...
+Hana_Branch_30112020  Selcted
+Login Successfull
+Accounts :Development_30_04_2020,Hana_Branch_Test
+Companies in Account: Hana_Branch_30112020,Development_30_04_2020
+Hana_Branch_Test
+
+Ending Session
+PASSED: verifyAccountsinProfileSection
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+[RemoteTestNG] detected TestNG version 7.3.0
+Launching Application with Apk version: D:\APK\Sales_dev_30_nov.apk
+Using Test Data Excel Sheet: ConnectrixData.xlsx
+Dec 01, 2020 10:35:55 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+User mobile number to Login: 9716322119
+Login Successfull
+Switching to HANA Branch...
+Switching from available accounts...
+Hana_Branch_30112020  Selected
+Accounts :Development_30_04_2020,Hana_Branch_Test
+Companies in Account: Hana_Branch_30112020,Development_30_04_2020
+Hana_Branch_Test
+
+Ending Session
+PASSED: verifyAccountsinProfileSection
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+[RemoteTestNG] detected TestNG version 7.3.0
+Dec 01, 2020 4:16:37 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+Launching Application with Apk version: D:\APK\SalesApp01Dec.apk
+Using Test Data Excel Sheet: ConnectrixData.xlsx
+User mobile number to Login: 9716322119
+Login Successfull
